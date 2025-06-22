@@ -1,0 +1,96 @@
+INFO - 2024-06-12 04:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-12 04:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-12 04:47:28 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-12 04:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-12 04:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-12 04:48:25 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-12 04:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-12 06:07:04 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 06:16:48 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 06:19:21 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 06:46:41 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-12 06:47:41 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

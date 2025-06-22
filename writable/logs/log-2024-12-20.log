@@ -1,0 +1,437 @@
+CRITICAL - 2024-12-20 13:21:34 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:23:54 --> ErrorException: Undefined variable $idkel
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idkel', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:26:16 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:29:49 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:35:09 --> ErrorException: Undefined array key "idkel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 73.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkel"', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tampil.php', 73)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(27): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:35:27 --> ErrorException: Undefined array key "idkel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 73.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkel"', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tampil.php', 73)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(27): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:36:08 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:44:04 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:48:19 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:48:35 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:48:41 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:49:22 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:49:26 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:49:58 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:50:03 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: ungkapkasus/tambah]
+in APPPATH\Views\ungkapkasus\tambah.php on line 94.
+ 1 APPPATH\Views\ungkapkasus\tambah.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php', 94)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\ungkapkasus\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tambah', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(33): view('ungkapkasus/tambah')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:55:41 --> ErrorException: Undefined property: stdClass::$idkel
+[Method: GET, Route: penggiat/tambah]
+in APPPATH\Views\penggiat\tambah.php on line 67.
+ 1 APPPATH\Views\penggiat\tambah.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idkel', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('penggiat/tambah', [], true)
+ 5 APPPATH\Controllers\Penggiat.php(40): view('penggiat/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggiat->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggiat))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:56:36 --> ErrorException: Undefined property: stdClass::$id_kel
+[Method: GET, Route: penggiat/tambah]
+in APPPATH\Views\penggiat\tambah.php on line 67.
+ 1 APPPATH\Views\penggiat\tambah.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_kel', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('penggiat/tambah', [], true)
+ 5 APPPATH\Controllers\Penggiat.php(40): view('penggiat/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggiat->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggiat))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:59:33 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 13:59:47 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:00:24 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:00:31 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:01:27 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:01:28 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:01:28 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:01:28 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:01:29 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:01:29 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:03:24 --> Error: Undefined constant "App\Controllers\use\App\Models\KelurahanModel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Controllers\Ungkapkasus.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Controllers\\Ungkapkasus.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Ungkapkasus')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Ungkapkasus')
+ 5 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Ungkapkasus', true)
+ 6 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:04:36 --> ErrorException: Undefined property: stdClass::$idkel
+[Method: GET, Route: penggiat/tambah]
+in APPPATH\Views\penggiat\tambah.php on line 67.
+ 1 APPPATH\Views\penggiat\tambah.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idkel', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('penggiat/tambah', [], true)
+ 5 APPPATH\Controllers\Penggiat.php(40): view('penggiat/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggiat->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggiat))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:05:05 --> ErrorException: Undefined property: stdClass::$id_kel
+[Method: GET, Route: penggiat/tambah]
+in APPPATH\Views\penggiat\tambah.php on line 67.
+ 1 APPPATH\Views\penggiat\tambah.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_kel', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('penggiat/tambah', [], true)
+ 5 APPPATH\Controllers\Penggiat.php(40): view('penggiat/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggiat->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggiat))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:05:13 --> ErrorException: Undefined property: stdClass::$id_kel
+[Method: GET, Route: penggiat/tambah]
+in APPPATH\Views\penggiat\tambah.php on line 67.
+ 1 APPPATH\Views\penggiat\tambah.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_kel', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('penggiat/tambah', [], true)
+ 5 APPPATH\Controllers\Penggiat.php(40): view('penggiat/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggiat->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggiat))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-20 14:06:15 --> ErrorException: Undefined property: stdClass::$id_kel
+[Method: GET, Route: penggiat/tambah]
+in APPPATH\Views\penggiat\tambah.php on line 67.
+ 1 APPPATH\Views\penggiat\tambah.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_kel', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\penggiat\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('penggiat/tambah', [], true)
+ 5 APPPATH\Controllers\Penggiat.php(40): view('penggiat/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Penggiat->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penggiat))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

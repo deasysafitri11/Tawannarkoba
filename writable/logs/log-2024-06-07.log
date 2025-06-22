@@ -1,0 +1,221 @@
+CRITICAL - 2024-06-07 06:52:46 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 06:53:10 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 06:53:13 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 06:55:12 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 06:55:16 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:00:36 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:00:47 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:00:54 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: sekolah]
+in APPPATH\Views\sekolah\tampil.php on line 47.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\sekolah.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:02:53 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: sekolah]
+in APPPATH\Views\sekolah\tampil.php on line 47.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\sekolah.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:03:11 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(16): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(7): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:03:22 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(16): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(7): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:03:25 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: sekolah]
+in APPPATH\Views\sekolah\tampil.php on line 47.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\sekolah.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:04:20 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:05:25 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\kecamatan\tampil.php on line 39.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/tampil', [], true)
+ 3 APPPATH\Controllers\Kecamatan.php(17): view('kecamatan/tampil', [...])
+ 4 APPPATH\Controllers\Kecamatan.php(8): App\Controllers\Kecamatan->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:05:30 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: sekolah]
+in APPPATH\Views\sekolah\tampil.php on line 47.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\sekolah.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 07:34:20 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: sekolah]
+in APPPATH\Views\sekolah\tampil.php on line 47.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\sekolah.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-07 08:01:02 --> ParseError: syntax error, unexpected token ">"
+[Method: GET, Route: sekolah]
+in APPPATH\Views\sekolah\tampil.php on line 47.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('sekolah/tampil', [], true)
+ 3 APPPATH\Controllers\sekolah.php(17): view('sekolah/tampil', [...])
+ 4 APPPATH\Controllers\sekolah.php(7): App\Controllers\Sekolah->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sekolah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

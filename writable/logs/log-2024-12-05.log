@@ -1,0 +1,1105 @@
+CRITICAL - 2024-12-05 01:49:28 --> ErrorException: Attempt to read property "Idkasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Idkasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:49:40 --> ErrorException: Attempt to read property "Idkasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Idkasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:49:44 --> ErrorException: Attempt to read property "Idkasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Idkasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:50:04 --> ErrorException: Attempt to read property "Idkasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Idkasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:50:14 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-05 01:50:39 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aoc`.`kecamatan`, CONSTRAINT `kecamatan_ibfk_1` FOREIGN KEY (`id_kabupaten`) REFERENCES `kabupaten` (`id_kabupaten`)) in C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `ka...', 0)
+#1 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 C:\xampp\htdocs\tawannarkobav2\system\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(1158): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\tawannarkobav2\app\Controllers\Kabupaten.php(106): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(933): App\Controllers\Kabupaten->hapus('1')
+#8 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+#9 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\tawannarkobav2\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-12-05 01:50:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aoc`.`kecamatan`, CONSTRAINT `kecamatan_ibfk_1` FOREIGN KEY (`id_kabupaten`) REFERENCES `kabupaten` (`id_kabupaten`))
+[Method: GET, Route: kabupaten/hapus/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kabupaten`
+WHERE `id_kabupaten` IN :id_kabupaten:', [...], false)
+ 2 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Kabupaten.php(106): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kabupaten->hapus('1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:50:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`aoc`.`kecamatan`, CONSTRAINT `kecamatan_ibfk_1` FOREIGN KEY (`id_kabupaten`) REFERENCES `kabupaten` (`id_kabupaten`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kabupaten`
+WHERE `id_kabupaten` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kabupaten`
+WHERE `id_kabupaten` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kabupaten`
+WHERE `id_kabupaten` IN :id_kabupaten:', [...], false)
+ 4 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Kabupaten.php(106): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kabupaten->hapus('1')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:50:39 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`aoc`.`kecamatan`, CONSTRAINT `kecamatan_ibfk_1` FOREIGN KEY (`id_kabupaten`) REFERENCES `kabupaten` (`id_kabupaten`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('DELETE FROM `kabupaten`
+WHERE `id_kabupaten` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `kabupaten`
+WHERE `id_kabupaten` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `kabupaten`
+WHERE `id_kabupaten` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2823): CodeIgniter\Database\BaseConnection->query('DELETE FROM `kabupaten`
+WHERE `id_kabupaten` IN :id_kabupaten:', [...], false)
+ 5 SYSTEMPATH\Model.php(510): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1158): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Kabupaten.php(106): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kabupaten->hapus('1')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kabupaten))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:51:13 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: tambahkecamatan]
+in APPPATH\Controllers\Kecamatan.php on line 34.
+ 1 APPPATH\Controllers\Kecamatan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Kecamatan.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:58:11 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: tambahkecamatan]
+in APPPATH\Controllers\Kecamatan.php on line 34.
+ 1 APPPATH\Controllers\Kecamatan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Kecamatan.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:58:13 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: tambahkecamatan]
+in APPPATH\Controllers\Kecamatan.php on line 34.
+ 1 APPPATH\Controllers\Kecamatan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Kecamatan.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 01:58:14 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: tambahkecamatan]
+in APPPATH\Controllers\Kecamatan.php on line 34.
+ 1 APPPATH\Controllers\Kecamatan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Kecamatan.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 02:19:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tambahkelurahan.php"
+[Method: GET, Route: tambahkelurahan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambahkelurahan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tambahkelurahan', [], true)
+ 3 APPPATH\Controllers\Kelurahan.php(37): view('tambahkelurahan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 02:19:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tambahkelurahan.php"
+[Method: GET, Route: tambahkelurahan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambahkelurahan.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tambahkelurahan', [], true)
+ 3 APPPATH\Controllers\Kelurahan.php(37): view('tambahkelurahan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->tambah()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 02:46:44 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: kelurahan/tambah]
+in APPPATH\Views\kelurahan\tambah.php on line 36.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kelurahan/tambah', [], true)
+ 4 APPPATH\Controllers\Kelurahan.php(41): view('kelurahan/tambah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->tambah()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-05 02:49:19 --> mysqli_sql_exception: Unknown column 'nama_kelurahan' in 'field list' in C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\tawannarkobav2\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tawannarkobav2\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\tawannarkobav2\app\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+#10 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+#11 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\tawannarkobav2\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-05 02:49:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nama_kelurahan' in 'field list'
+[Method: POST, Route: kelurahan/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `nama_kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :nama_kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 02:49:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nama_kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `nama_kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'desa\', \'dfsa\', \'2024-12-05 02:49:19\', \'2024-12-05 02:49:19\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `nama_kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'desa\', \'dfsa\', \'2024-12-05 02:49:19\', \'2024-12-05 02:49:19\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `nama_kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :nama_kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 02:49:19 --> [Caused by] mysqli_sql_exception: Unknown column 'nama_kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `kelurahan` (`id_kecamatan`, `nama_kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'desa\', \'dfsa\', \'2024-12-05 02:49:19\', \'2024-12-05 02:49:19\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `nama_kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'desa\', \'dfsa\', \'2024-12-05 02:49:19\', \'2024-12-05 02:49:19\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `nama_kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'desa\', \'dfsa\', \'2024-12-05 02:49:19\', \'2024-12-05 02:49:19\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `nama_kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :nama_kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-05 02:58:54 --> mysqli_sql_exception: Unknown column 'Nama_Kelurahan' in 'field list' in C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\tawannarkobav2\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tawannarkobav2\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\tawannarkobav2\app\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+#10 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+#11 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\tawannarkobav2\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-05 02:58:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Nama_Kelurahan' in 'field list'
+[Method: POST, Route: kelurahan/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 02:58:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Nama_Kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 02:58:54\', \'2024-12-05 02:58:54\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 02:58:54\', \'2024-12-05 02:58:54\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 02:58:54 --> [Caused by] mysqli_sql_exception: Unknown column 'Nama_Kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 02:58:54\', \'2024-12-05 02:58:54\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 02:58:54\', \'2024-12-05 02:58:54\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 02:58:54\', \'2024-12-05 02:58:54\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-05 03:01:33 --> mysqli_sql_exception: Unknown column 'Nama_Kelurahan' in 'field list' in C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\tawannarkobav2\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tawannarkobav2\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\tawannarkobav2\app\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+#10 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+#11 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\tawannarkobav2\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-05 03:01:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Nama_Kelurahan' in 'field list'
+[Method: POST, Route: kelurahan/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 03:01:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Nama_Kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 03:01:33\', \'2024-12-05 03:01:33\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 03:01:33\', \'2024-12-05 03:01:33\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 03:01:33 --> [Caused by] mysqli_sql_exception: Unknown column 'Nama_Kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 03:01:33\', \'2024-12-05 03:01:33\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 03:01:33\', \'2024-12-05 03:01:33\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'0\', \'Deahjs\', \'dfsa\', \'2024-12-05 03:01:33\', \'2024-12-05 03:01:33\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-05 03:02:10 --> mysqli_sql_exception: Unknown column 'Nama_Kelurahan' in 'field list' in C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\tawannarkobav2\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tawannarkobav2\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\tawannarkobav2\app\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+#10 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+#11 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\tawannarkobav2\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-05 03:02:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Nama_Kelurahan' in 'field list'
+[Method: POST, Route: kelurahan/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 03:02:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Nama_Kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:02:10\', \'2024-12-05 03:02:10\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:02:10\', \'2024-12-05 03:02:10\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 03:02:10 --> [Caused by] mysqli_sql_exception: Unknown column 'Nama_Kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:02:10\', \'2024-12-05 03:02:10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:02:10\', \'2024-12-05 03:02:10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:02:10\', \'2024-12-05 03:02:10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-05 03:08:31 --> mysqli_sql_exception: Unknown column 'Nama_Kelurahan' in 'field list' in C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\tawannarkobav2\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tawannarkobav2\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\tawannarkobav2\app\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+#10 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+#11 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\tawannarkobav2\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-12-05 03:08:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Nama_Kelurahan' in 'field list'
+[Method: POST, Route: kelurahan/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 03:08:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Nama_Kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:08:31\', \'2024-12-05 03:08:31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:08:31\', \'2024-12-05 03:08:31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 03:08:31 --> [Caused by] mysqli_sql_exception: Unknown column 'Nama_Kelurahan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:08:31\', \'2024-12-05 03:08:31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:08:31\', \'2024-12-05 03:08:31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (\'2\', \'sksljfls\', \'djdfru\', \'2024-12-05 03:08:31\', \'2024-12-05 03:08:31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelurahan` (`id_kecamatan`, `Nama_Kelurahan`, `pic`, `created_at`, `updated_at`) VALUES (:id_kecamatan:, :Nama_Kelurahan:, :pic:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Kelurahan.php(57): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->simpan()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 03:21:08 --> ErrorException: Undefined property: stdClass::$Nama_Kecamatan
+[Method: GET, Route: kelurahan/tambah]
+in APPPATH\Views\kelurahan\tambah.php on line 36.
+ 1 APPPATH\Views\kelurahan\tambah.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Nama_Kecamatan', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kelurahan\\tambah.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kelurahan\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kelurahan/tambah', [], true)
+ 5 APPPATH\Controllers\Kelurahan.php(41): view('kelurahan/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kelurahan->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kelurahan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 04:17:11 --> ErrorException: Attempt to read property "Idkasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "Idkasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 04:21:03 --> ErrorException: Attempt to read property "IdKasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdKasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 04:41:55 --> ErrorException: Attempt to read property "IdKasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdKasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 04:41:56 --> ErrorException: Attempt to read property "IdKasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdKasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:18:47 --> ErrorException: Attempt to read property "IdKasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdKasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:18:53 --> ErrorException: Attempt to read property "IdKasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdKasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:19:09 --> ErrorException: Attempt to read property "IdKasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdKasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:19:12 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:19:12 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:27:15 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:27:18 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:28:40 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:37:17 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:39:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:39:38 --> ErrorException: Array to string conversion
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:40:23 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dashboard')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Dashboard', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:40:40 --> ErrorException: Array to string conversion
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:41:00 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 14.
+ 1 APPPATH\Views\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:43:48 --> ErrorException: 'break' not in the 'loop' or 'switch' context
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-12-05 07:44:06 --> ErrorException: Array to string conversion
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 16.
+ 1 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:45:01 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 14.
+ 1 APPPATH\Views\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:45:04 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 14.
+ 1 APPPATH\Views\dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:45:44 --> ErrorException: Array to string conversion
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 2.
+ 1 APPPATH\Views\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:45:46 --> ErrorException: Array to string conversion
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 2.
+ 1 APPPATH\Views\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:46:07 --> ErrorException: Array to string conversion
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 2.
+ 1 APPPATH\Views\dashboard.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 2)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:46:19 --> ErrorException: Attempt to read property "latitude" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 17.
+ 1 APPPATH\Views\dashboard.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "latitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:46:21 --> ErrorException: Attempt to read property "latitude" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 17.
+ 1 APPPATH\Views\dashboard.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "latitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:48:01 --> ErrorException: Attempt to read property "nama_kabupaten" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 88.
+ 1 APPPATH\Views\dashboard.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 88)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:48:40 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 88.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:49:08 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 88.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:49:29 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 93.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:55:38 --> ErrorException: Attempt to read property "IdKasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdKasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 07:57:42 --> ErrorException: Attempt to read property "IdKasus" on array
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 44.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdKasus" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 08:05:02 --> ErrorException: Undefined array key "IdKasus"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 42.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IdKasus"', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 08:10:33 --> ErrorException: Undefined array key "IdKasus"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 42.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IdKasus"', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 08:10:34 --> ErrorException: Undefined array key "IdKasus"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 42.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IdKasus"', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 08:10:35 --> ErrorException: Undefined array key "IdKasus"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 42.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IdKasus"', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 42)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 08:26:44 --> ErrorException: Undefined array key "GolonganUmur"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 46.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "GolonganUmur"', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 08:29:41 --> ErrorException: Undefined array key "Golongan_Umur"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 46.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Golongan_Umur"', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 08:35:40 --> ErrorException: Undefined array key "IdKel"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 53.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IdKel"', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-05 08:45:07 --> ErrorException: Undefined array key "Aksi"
+[Method: GET, Route: ungkapkasus]
+in APPPATH\Views\ungkapkasus\tampil.php on line 59.
+ 1 APPPATH\Views\ungkapkasus\tampil.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Aksi"', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php', 59)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\ungkapkasus\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ungkapkasus/tampil', [], true)
+ 5 APPPATH\Controllers\Ungkapkasus.php(26): view('ungkapkasus/tampil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ungkapkasus->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ungkapkasus))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

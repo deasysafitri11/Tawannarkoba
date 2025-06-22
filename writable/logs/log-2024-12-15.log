@@ -1,0 +1,1031 @@
+CRITICAL - 2024-12-15 08:05:41 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:08:21 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:10:09 --> ErrorException: Attempt to read property "id_kabupaten" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 13.
+ 1 APPPATH\Views\dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kabupaten" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:10:34 --> ErrorException: Attempt to read property "latitude" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 31.
+ 1 APPPATH\Views\dashboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "latitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:11:32 --> ErrorException: Attempt to read property "latitude" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "latitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:12:01 --> ErrorException: Attempt to read property "latitude" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "latitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:13:36 --> ErrorException: Attempt to read property "latitude" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 35.
+ 1 APPPATH\Views\dashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "latitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:13:49 --> ErrorException: Attempt to read property "latitude" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 35.
+ 1 APPPATH\Views\dashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "latitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:15:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:16:23 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:16:59 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:17:00 --> ErrorException: Array to string conversion
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:17:15 --> ErrorException: Attempt to read property "latitude" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 34.
+ 1 APPPATH\Views\dashboard.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "latitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:17:32 --> ErrorException: Attempt to read property "longitude" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 35.
+ 1 APPPATH\Views\dashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "longitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:21:34 --> ErrorException: Undefined array key 0
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 10.
+ 1 APPPATH\Views\dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:21:52 --> ErrorException: Attempt to read property "latitude" on array
+[Method: GET, Route: /]
+in APPPATH\Views\dashboard.php on line 10.
+ 1 APPPATH\Views\dashboard.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "latitude" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 10)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 08:41:50 --> ErrorException: Undefined variable $hasil
+[Method: GET, Route: getdatakecamatan]
+in APPPATH\Controllers\Dashboard.php on line 54.
+ 1 APPPATH\Controllers\Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getDataKecamatan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:40:11 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:40:53 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:42:01 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:43:20 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:44:51 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:44:56 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:45:35 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:46:20 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:46:33 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:47:17 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:47:18 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:47:19 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:47:19 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:47:19 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:47:19 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 37.
+ 1 APPPATH\Controllers\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 12:50:54 --> ErrorException: Attempt to read property "id_kecamatan" on array
+[Method: GET, Route: getdata]
+in APPPATH\Controllers\Dashboard.php on line 38.
+ 1 APPPATH\Controllers\Dashboard.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-15 13:44:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'aoc', 3306, '', 0)
+#1 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tawannarkobav2\system\Model.php(207): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, 2)
+#6 C:\xampp\htdocs\tawannarkobav2\app\Controllers\Dashboard.php(16): CodeIgniter\BaseModel->find(2)
+#7 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\tawannarkobav2\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\tawannarkobav2\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\tawannarkobav2\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\tawannarkobav2\system\Model.php(207): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\tawannarkobav2\system\BaseModel.php(610): CodeIgniter\Model->doFind(true, 2)
+#5 C:\xampp\htdocs\tawannarkobav2\app\Controllers\Dashboard.php(16): CodeIgniter\BaseModel->find(2)
+#6 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\tawannarkobav2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tawannarkobav2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\tawannarkobav2\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-15 13:44:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kabupaten`
+WHERE `kabupaten`.`id_kabupaten` = :kabupaten.id_kabupaten:', [...], false)
+ 3 SYSTEMPATH\Model.php(207): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(610): CodeIgniter\Model->doFind(true, 2)
+ 5 APPPATH\Controllers\Dashboard.php(16): CodeIgniter\BaseModel->find(2)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 14:50:39 --> ErrorException: Attempt to read property "IdAgen" on array
+[Method: GET, Route: agenpemulihan]
+in APPPATH\Views\agenpemulihan\tampil.php on line 47.
+ 1 APPPATH\Views\agenpemulihan\tampil.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdAgen" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\agenpemulihan\\tampil.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\agenpemulihan\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('agenpemulihan/tampil', [], true)
+ 5 APPPATH\Controllers\AgenPemulihan.php(25): view('agenpemulihan/tampil', [...])
+ 6 APPPATH\Controllers\AgenPemulihan.php(11): App\Controllers\AgenPemulihan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AgenPemulihan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgenPemulihan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/bootstrap/css/bootstrap.min.css]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'bootstrap', 'css', 'bootstrap.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/leaflet/leaflet.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'leaflet', 'leaflet.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/js/jquery.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'js', 'jquery.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/bootstrap-icons/bootstrap-icons.css]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'bootstrap-icons', 'bootstrap-icons.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/boxicons/css/boxicons.min.css]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'boxicons', 'css', 'boxicons.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/leaflet/leaflet.css]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'leaflet', 'leaflet.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/quill/quill.snow.css]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'quill', 'quill.snow.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/quill/quill.bubble.css]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'quill', 'quill.bubble.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/simple-datatables/style.css]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'simple-datatables', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/remixicon/remixicon.css]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'remixicon', 'remixicon.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/css/style.css]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'css', 'style.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/img/logo.png]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'img', 'logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/img/messages-1.jpg]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'img', 'messages-1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/img/messages-2.jpg]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'img', 'messages-2.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/img/messages-3.jpg]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'img', 'messages-3.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/apexcharts/apexcharts.min.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'apexcharts', 'apexcharts.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/img/profile-img.jpg]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'img', 'profile-img.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/chart.js/chart.umd.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'chart.js', 'chart.umd.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/quill/quill.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'quill', 'quill.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/echarts/echarts.min.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'echarts', 'echarts.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/simple-datatables/simple-datatables.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'simple-datatables', 'simple-datatables.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/tinymce/tinymce.min.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'tinymce', 'tinymce.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/vendor/php-email-form/validate.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'vendor', 'php-email-form', 'validate.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:19 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/js/main.js]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'js', 'main.js')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 15:46:20 --> ErrorException: Attempt to read property "id_kecamatan" on null
+[Method: GET, Route: editkecamatan/public/assets/img/favicon.png]
+in APPPATH\Views\kecamatan\edit.php on line 13.
+ 1 APPPATH\Views\kecamatan\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kecamatan" on null', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\kecamatan\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('kecamatan/edit', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(50): view('kecamatan/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kecamatan->edit('public', 'assets', 'img', 'favicon.png')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 16:01:35 --> ErrorException: Attempt to read property "IdAgen" on array
+[Method: GET, Route: agenpemulihan]
+in APPPATH\Views\agenpemulihan\tampil.php on line 47.
+ 1 APPPATH\Views\agenpemulihan\tampil.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdAgen" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\agenpemulihan\\tampil.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\agenpemulihan\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('agenpemulihan/tampil', [], true)
+ 5 APPPATH\Controllers\AgenPemulihan.php(25): view('agenpemulihan/tampil', [...])
+ 6 APPPATH\Controllers\AgenPemulihan.php(11): App\Controllers\AgenPemulihan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AgenPemulihan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgenPemulihan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 16:27:46 --> ErrorException: Attempt to read property "IdAgen" on array
+[Method: GET, Route: agenpemulihan]
+in APPPATH\Views\agenpemulihan\tampil.php on line 47.
+ 1 APPPATH\Views\agenpemulihan\tampil.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdAgen" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\agenpemulihan\\tampil.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\agenpemulihan\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('agenpemulihan/tampil', [], true)
+ 5 APPPATH\Controllers\AgenPemulihan.php(25): view('agenpemulihan/tampil', [...])
+ 6 APPPATH\Controllers\AgenPemulihan.php(11): App\Controllers\AgenPemulihan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AgenPemulihan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgenPemulihan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-15 20:15:06 --> mysqli_sql_exception: Table 'aoc.kerawanan' doesn't exist in C:\xampp\htdocs\tawannarkobav3\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav3\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tawannarkobav3\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tawannarkobav3\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tawannarkobav3\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tawannarkobav3\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tawannarkobav3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tawannarkobav3\app\Controllers\Dashboard.php(88): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tawannarkobav3\system\CodeIgniter.php(933): App\Controllers\Dashboard->getDataKecamatan()
+#8 C:\xampp\htdocs\tawannarkobav3\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\tawannarkobav3\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tawannarkobav3\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tawannarkobav3\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\tawannarkobav3\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-12-15 20:15:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aoc.kerawanan' doesn't exist
+[Method: GET, Route: getdatakecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = :id_kabupaten:', [...], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Dashboard.php(88): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getDataKecamatan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 20:15:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aoc.kerawanan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = :id_kabupaten:', [...], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Dashboard.php(88): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getDataKecamatan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 20:15:06 --> [Caused by] mysqli_sql_exception: Table 'aoc.kerawanan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = :id_kabupaten:', [...], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Dashboard.php(88): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getDataKecamatan()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-15 20:18:59 --> mysqli_sql_exception: Table 'aoc.kerawanan' doesn't exist in C:\xampp\htdocs\tawannarkobav3\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\tawannarkobav3\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tawannarkobav3\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tawannarkobav3\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tawannarkobav3\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tawannarkobav3\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tawannarkobav3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\tawannarkobav3\app\Controllers\Dashboard.php(88): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\tawannarkobav3\system\CodeIgniter.php(933): App\Controllers\Dashboard->getDataKecamatan()
+#8 C:\xampp\htdocs\tawannarkobav3\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\tawannarkobav3\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tawannarkobav3\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tawannarkobav3\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\tawannarkobav3\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-12-15 20:18:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'aoc.kerawanan' doesn't exist
+[Method: GET, Route: getdatakecamatan]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = :id_kabupaten:', [...], false)
+ 2 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Dashboard.php(88): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getDataKecamatan()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 20:18:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'aoc.kerawanan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = :id_kabupaten:', [...], false)
+ 4 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Dashboard.php(88): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getDataKecamatan()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 20:18:59 --> [Caused by] mysqli_sql_exception: Table 'aoc.kerawanan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kecamatan`
+JOIN `kerawanan` ON `kerawanan`.`id_kecamatan` = `kecamatan`.`id_kecamatan`
+WHERE `id_kabupaten` = :id_kabupaten:', [...], false)
+ 5 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Dashboard.php(88): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->getDataKecamatan()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-15 20:19:24 --> ErrorException: Attempt to read property "IdAgen" on array
+[Method: GET, Route: agenpemulihan]
+in APPPATH\Views\agenpemulihan\tampil.php on line 47.
+ 1 APPPATH\Views\agenpemulihan\tampil.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "IdAgen" on array', 'C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\agenpemulihan\\tampil.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav3\\app\\Views\\agenpemulihan\\tampil.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('agenpemulihan/tampil', [], true)
+ 5 APPPATH\Controllers\AgenPemulihan.php(25): view('agenpemulihan/tampil', [...])
+ 6 APPPATH\Controllers\AgenPemulihan.php(11): App\Controllers\AgenPemulihan->tampil()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AgenPemulihan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AgenPemulihan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
