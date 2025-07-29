@@ -1,0 +1,266 @@
+CRITICAL - 2025-07-19 12:01:07 --> Error: Class "App\Models\TempatkosModel" not found
+[Method: GET, Route: tempatkos]
+in APPPATH\Controllers\Tempatkos.php on line 17.
+ 1 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:07:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(29): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:11:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(29): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:11:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(29): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:11:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(29): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:11:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(29): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:12:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "C:\xampp\htdocs\tawannarkobav2\app\Views/tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views/tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views/tempatkos/tampil.php', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(29): view('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views/tempatkos/tampil.php', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:12:56 --> ErrorException: Undefined variable $data
+[Method: GET, Route: tempatkos]
+in APPPATH\Controllers\Tempatkos.php on line 12.
+ 1 APPPATH\Controllers\Tempatkos.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Tempatkos.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:17:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:19:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:22:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:23:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:23:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:23:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:32:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:32:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 12:34:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 14:48:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "tempatkos/tampil.php"
+[Method: GET, Route: tempatkos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempatkos/tampil.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tempatkos/tampil', [], true)
+ 3 APPPATH\Controllers\Tempatkos.php(30): view('tempatkos/tampil', [...])
+ 4 APPPATH\Controllers\Tempatkos.php(12): App\Controllers\Tempatkos->tampil()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Tempatkos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tempatkos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 15:53:09 --> ErrorException: Undefined variable $tahun_tersedia
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 44.
+ 1 APPPATH\Views\dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tahun_tersedia', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(32): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 15:54:17 --> ErrorException: Undefined variable $kabupaten
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard.php on line 71.
+ 1 APPPATH\Views\dashboard.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kabupaten', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php', 71)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\tawannarkobav2\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(53): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-19 15:56:41 --> ErrorException: Attempt to read property "id_kelurahan" on array
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 51.
+ 1 APPPATH\Controllers\Dashboard.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_kelurahan" on array', 'C:\\xampp\\htdocs\\tawannarkobav2\\app\\Controllers\\Dashboard.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

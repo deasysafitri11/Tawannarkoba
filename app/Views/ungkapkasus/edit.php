@@ -33,8 +33,8 @@ echo view('sidebar');
             <label for="JK" class="form-label">Jenis Kelamin</label>
             <select class="form-select" id="JK" name="JK" value="<?php echo $query['JK'];?>" required>
                 <option value="">Pilih Jenis Kelamin</option>
-                <option value="Laki-laki" <?php  echo "Laki-laki" === $query['JK'] ?  'selected' : '' ; ?> >Laki-laki</option>
-                <option value="Perempuan" <?php echo "Perempuan" === $query['JK'] ?  'selected' : '' ;?> >Perempuan</option>
+                <option value="L" <?php  echo "L" === $query['JK'] ?  'selected' : '' ; ?> >Laki-laki</option>
+                <option value="P" <?php echo "P" === $query['JK'] ?  'selected' : '' ;?> >Perempuan</option>
             </select>
         </div>
         
@@ -79,6 +79,7 @@ echo view('sidebar');
                 <option value="">Pilih Satuan</option>
                 <option value="Gram" <?php  echo "Gram" === $query['Satuan'] ?  'selected' : '' ; ?>>Gram</option>
                 <option value="Kilogram" <?php  echo "Kilogram" === $query['Satuan'] ?  'selected' : '' ; ?>>Kilogram</option>
+                <option value="Butir" <?php  echo "Butir" === $query['Satuan'] ?  'selected' : '' ; ?>>Butir</option>
             </select>
         </div>
         

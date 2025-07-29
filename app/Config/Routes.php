@@ -11,6 +11,14 @@ $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->setAutoRoute(false);
 
+$routes->get('/', 'PetaController::publik');
+$routes->get('peta/getdata', 'PetaController::getData');
+$routes->get('peta/getdatakecamatan', 'PetaController::getdatakecamatan');
+$routes->get('peta/getdatakerawanan', 'PetaController::getDataKerawanan');
+
+// Halaman publik peta kerawanan (tanpa login)
+$routes->get('peta-publik', 'PetaController::publik'); // Tidak menggunakan filter
+
 // Routing URL Controller Dashboard
 $routes->get('/', 'Dashboard::index');
 $routes->get('dashboard', 'Dashboard::index');
@@ -18,6 +26,17 @@ $routes->get('getdata', 'Dashboard::getData');
 $routes->get('dashboard_aoc', 'Dashboard::aoc');
 $routes->get('getdatakecamatan', 'Dashboard::getDataKecamatan');
 $routes->get('getdatakerawanan', 'Dashboard::getDataKerawanan');
+$routes->get('dashboard/ujiKNN', 'Dashboard::ujiKNN');
+
+$routes->get('bobot', 'Bobot::index');
+$routes->get('bobot/tambah', 'Bobot::tambah');
+$routes->post('bobot/simpan', 'Bobot::simpan');
+$routes->get('/bobot/edit', 'Bobot::edit');
+$routes->post('/bobot/update', 'Bobot::update');
+$routes->get('bobot/hapus/(:num)', 'Bobot::hapus/$1');
+$routes->get('/ahp/form', 'AHPController::form');
+$routes->post('/ahp/hitung', 'AHPController::hitung');
+
 
 // Routing URL Controller Kecamatan
 $routes->get('kecamatan', 'Kecamatan::index');
@@ -34,6 +53,9 @@ $routes->post('data/simpan', 'DataController::simpan');
 $routes->get('data/edit/(:num)', 'DataController::edit/$1');
 $routes->post('data/update', 'DataController::update');
 $routes->get('data/hapus/(:num)', 'DataController::hapus/$1');
+
+// Rekap
+$routes->get('rekapkerawanan', 'RekapKerawanan::index');
 
 // Routing URL Controller Ungkap Kasus
 $routes->get('ungkapkasus', 'Ungkapkasus::index');
@@ -111,7 +133,37 @@ $routes->post('sosialisasi/simpan', 'Sosialisasi::simpan');         // Proses si
 $routes->get('sosialisasi/edit/(:any)', 'Sosialisasi::edit/$1');    // Menampilkan form edit kabupaten berdasarkan ID
 $routes->post('sosialisasi/update/(:any)', 'Sosialisasi::update/$1'); // Proses update data kabupaten
 $routes->get('sosialisasi/hapus/(:any)', 'Sosialisasi::hapus/$1');
+$routes->get('login', 'AuthController::login');
+$routes->post('login', 'AuthController::doLogin');
+$routes->get('logout', 'AuthController::logout');
 
+$routes->get('tempatkos', 'Tempatkos::index');
+$routes->get('tempatkos/tambah', 'Tempatkos::tambah');
+$routes->get('tempatkos/edit/(:segment)', 'Tempatkos::edit/$1');
+$routes->get('tempatkos/hapus/(:segment)', 'Tempatkos::hapus/$1');
+
+
+
+// Halaman utama setelah login
+$routes->get('dashboard', 'DashboardController::index', ['filter' => 'auth']);
+
+// Role-based routes
+$routes->get('admin/panel', 'AdminController::index', ['filter' => 'role:all']);
+$routes->get('pencegahan/panel', 'PencegahanController::index', ['filter' => 'role:pencegahan']);
+
+// Untuk generate password hash (sementara debug)
+$routes->get('hash/(:any)', function($pass) {
+    echo password_hash($pass, PASSWORD_DEFAULT);
+});
+
+$routes->get('my-profile', 'UserController::myProfile');
+$routes->post('my-profile/update', 'UserController::updateProfile');
+
+$routes->post('search', 'SearchController::index');
+$routes->get('ungkap-kasus/(:segment)', 'UngkapKasusController::detail/$1');
+
+
+$routes->get('getDataKerawanan', 'PetaController::getDataKerawanan');
 
 
 // Memuat file routing tambahan berdasarkan lingkungan aplikasi

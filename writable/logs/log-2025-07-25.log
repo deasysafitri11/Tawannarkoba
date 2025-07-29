@@ -1,0 +1,40 @@
+CRITICAL - 2025-07-25 08:37:42 --> BadMethodCallException: Call to undefined method App\Models\RekapKerawananModel::whereNotNull
+[Method: GET, Route: dashboard/ujiKNN]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Dashboard.php(118): CodeIgniter\Model->__call('whereNotNull', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->ujiKNN()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 08:39:24 --> BadMethodCallException: Call to undefined method App\Models\RekapKerawananModel::whereNotNull
+[Method: GET, Route: dashboard/ujiKNN]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Dashboard.php(118): CodeIgniter\Model->__call('whereNotNull', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->ujiKNN()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 08:39:52 --> BadMethodCallException: Call to undefined method App\Models\RekapKerawananModel::whereNotNull
+[Method: GET, Route: dashboard/ujiKNN]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Dashboard.php(118): CodeIgniter\Model->__call('whereNotNull', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->ujiKNN()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-25 08:40:00 --> BadMethodCallException: Call to undefined method App\Models\RekapKerawananModel::whereNotNull
+[Method: GET, Route: dashboard/ujiKNN]
+in SYSTEMPATH\Model.php on line 921.
+ 1 APPPATH\Controllers\Dashboard.php(118): CodeIgniter\Model->__call('whereNotNull', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->ujiKNN()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

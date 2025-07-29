@@ -59,10 +59,11 @@
     </div><!-- End Logo -->
 
     <div class="search-bar">
-      <form class="search-form d-flex align-items-center" method="POST" action="#">
-        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
-        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-      </form>
+      <form class="search-form d-flex align-items-center" method="POST" action="<?= site_url('search') ?>">
+    <input type="text" name="query" placeholder="Cari data..." title="Ketik kata kunci">
+    <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+</form>
+
     </div><!-- End Search Bar -->
 
     <nav class="header-nav ms-auto">
@@ -219,23 +220,24 @@
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
             <img src="<?php echo base_url().'public/assets/img/profile-img.jpg';?>" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+            <span class="d-none d-md-block dropdown-toggle ps-2">Kukuh Jamaludin</span>
           </a><!-- End Profile Iamge Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
-              <h6>Kevin Anderson</h6>
-              <span>Web Designer</span>
+              <h6>Kukuh Jamaludin</h6>
+              <span>Admin</span>
             </li>
             <li>
               <hr class="dropdown-divider">
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                <i class="bi bi-person"></i>
-                <span>My Profile</span>
+              <a class="dropdown-item d-flex align-items-center" href="<?= site_url('my-profile') ?>">
+                  <i class="bi bi-person"></i>
+                  <span>My Profile</span>
               </a>
+
             </li>
             <li>
               <hr class="dropdown-divider">
@@ -262,10 +264,11 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
-                <i class="bi bi-box-arrow-right"></i>
-                <span>Sign Out</span>
-              </a>
+              <a class="dropdown-item d-flex align-items-center" href="<?= site_url('logout') ?>">
+              <i class="bi bi-box-arrow-right"></i>
+              <span>Sign Out</span>
+            </a>
+
             </li>
 
           </ul><!-- End Profile Dropdown Items -->

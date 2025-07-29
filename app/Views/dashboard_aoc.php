@@ -1,276 +1,287 @@
 <?php
-echo view('header'); // memanggil file view header.php
-echo view('sidebar'); // memanggil file view sidebar.php
+echo view('header');
+echo view('sidebar');
+
+function kategori_kerawanan($nilai) {
+    if ($nilai <= 40) {
+        return '<span class="badge text-dark" style="background-color: #ffeb3b;">Siaga</span>';
+    } elseif ($nilai <= 70) {
+        return '<span class="badge bg-warning text-dark">Waspada</span>';
+    } else {
+        return '<span class="badge bg-danger">Rawan</span>';
+    }
+}
 ?>
 
 <main id="main" class="main">
     <div class="pagetitle">
-    <h1>Dashboard</h1>
-    <nav>
-        <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Hayyy</a></li>
-        <li class="breadcrumb-item active">Dashboard</li>
-        </ol>
-    </nav>
-    </div><!-- End Page Title -->
+        <h1>Dashboard</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">Dashboard</li>
+            </ol>
+        </nav>
+    </div>
 
     <section class="section dashboard">
-      <div class="row">
+        <div class="row">
 
-        <!-- Left side columns -->
-        <div class="col-lg-8">
-          <div class="row">
-
-            <!-- Sales Card -->
-            <div class="col-xxl-4 col-md-6">
-              <div class="card info-card sales-card">
-
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Tanggal</a></li>
-                    <li><a class="dropdown-item" href="#">Bulan</a></li>
-                    <li><a class="dropdown-item" href="#">Tahun</a></li>
-                  </ul>
-                </div>
-
-                <div class="card-body">
-                  <h5 class="card-title">Pelapor <span>|Tahun ini</span></h5>
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-cart"></i>
-                    </div>
-                    <div class="ps-3">
-                      <h6>145</h6>                    
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div><!-- End Sales Card -->
-
-            <!-- Revenue Card -->
-            <div class="col-xxl-4 col-md-6">
-              <div class="card info-card revenue-card">
-
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
-
-                    <li><a class="dropdown-item" href="#">Tanggal</a></li>
-                    <li><a class="dropdown-item" href="#">Bulan</a></li>
-                    <li><a class="dropdown-item" href="#">Tahun</a></li>
-                  </ul>
-                </div>
-
-                <div class="card-body">
-                  <h5 class="card-title">Pelaku <span>|Tahun ini</span></h5>
-
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="fa fa-user-circle" aria-hidden="true"></i>
-                    </div>
-                    <div class="ps-3">
-                      <h6>264</h6>                     
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Revenue Card -->
-      
-            <!-- Customers Card -->
-            <div class="col-xxl-4 col-md-6">
-              <div class="card info-card revenue-card">
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
-
-                    <li><a class="dropdown-item" href="#">Tanggal</a></li>
-                    <li><a class="dropdown-item" href="#">Bulan</a></li>
-                    <li><a class="dropdown-item" href="#">Tahun</a></li>
-                  </ul>
-                </div>
-
-                <div class="card-body">
-                  <h5 class="card-title">Jumlah pelaku <span>|Keseluruhan</span></h5>
-                  <div class="d-flex align-items-center">
-                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="fa fa-user-circle" aria-hidden="true"></i>
-                    </div>
-                    <div class="ps-3">
-                      <h6>64</h6>                     
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Customers Card -->
-
-            <!-- Reports -->
+             
             <div class="col-12">
-              <div class="card">
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Kasus Narkoba Per Kecamatan </span></h5>
 
-                    <li><a class="dropdown-item" href="#">Tanggal</a></li>
-                    <li><a class="dropdown-item" href="#">Bulan</a></li>
-                    <li><a class="dropdown-item" href="#">Tahun</a></li>
-                  </ul>
-                </div>
+                        <div class="position-relative">
+                            
+                            <style>
+                            .btn-share {
+                                display: inline-flex;
+                                align-items: center;
+                                padding: 8px 16px;
+                                border: 2px solid #ccc;
+                                border-radius: 8px;
+                                background-color: #f5f5f5;
+                                color: #333;
+                                font-weight: bold;
+                                font-size: 14px;
+                                cursor: pointer;
+                                transition: all 0.2s ease-in-out;
+                            }
 
-                <div class="card-body">
-                  <h5 class="card-title">Kasus Narkoba Pada Tiap Kecamatan<span>/Periode 2019-2023</span></h5>
+                            .btn-share:hover {
+                                background-color: #e0e0e0;
+                            }
 
-                  <!-- Line Chart -->
-                  <div id="reportsChart"></div>
+                            .btn-share i {
+                                margin-right: 8px;
+                                color: #666;
+                            }
+                        </style>
+                           <div class="d-flex justify-content-end mb-3">
+                                <div class="dropdown">
+                                    <button class="btn-share dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-share-fill"></i> Bagikan
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" href="#" onclick="copyLink()"><i class="bi bi-link-45deg me-2"></i> Salin Link</a></li>
+                                    <li><a class="dropdown-item" href="#" onclick="shareToWhatsApp()"><i class="bi bi-whatsapp me-2"></i> WhatsApp</a></li>
+                                    <li><a class="dropdown-item" href="#" onclick="shareToFacebook()"><i class="bi bi-facebook me-2"></i> Facebook</a></li>
+                                    <li><a class="dropdown-item" href="#" onclick="shareToTwitter()"><i class="bi bi-twitter-x me-2"></i> Twitter</a></li>
+                                    </ul>
+                                </div>
+                            </div>
 
-                  <script>
-                    document.addEventListener("DOMContentLoaded", () => {
-                      new ApexCharts(document.querySelector("#reportsChart"), {
-                        series: [{
-                          name: '2019',
-                          data: [31, 40, 28, 51, 42, 82, 56, 19, 5, 12, 20, 7, 22, 2, 21, 18],
-                        }, {
-                          name: '2020',
-                          data: [11, 32, 45, 32, 34, 52, 41, 22, 5, 12, 9, 11, 8, 27, 4, 10]
-                        }, {
-                          name: '2021',
-                          data: [15, 11, 32, 18, 9, 24, 11, 50, 22, 9, 45, 20, 9, 32, 23, 15]
-                        }, {
-                          name: '2022',
-                          data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
-                        }, {
-                          name: '2023',
-                          data: [23, 10, 30, 17, 5, 9, 2, 15, 20, 8, 32, 9, 3, 4, 1, 6]                                                                                           
-                        }],
-                        chart: {
-                          height: 350,
-                          type: 'area',
-                          toolbar: {
-                            show: false
-                          },
-                        },
-                        markers: {
-                          size: 4
-                        },
-                        colors: ['#4154f1', '#2eca6a', '#ff771d'],
-                        fill: {
-                          type: "gradient",
-                          gradient: {
-                            shadeIntensity: 1,
-                            opacityFrom: 0.3,
-                            opacityTo: 0.4,
-                            stops: [0, 90, 100]
-                          }
-                        },
-                        dataLabels: {
-                          enabled: false
-                        },
-                        stroke: {
-                          curve: 'smooth',
-                          width: 2
-                        },
-                        xaxis: {
-                          type: 'dateletter',
-                          categories: ["Cilacap Selatan", "Cilacap Tengah", "Cilacap Utara", "Cipari", "Gandrungmangu", "Jeruklegi", "Karang Pucung", "Kawunganten", "Kedungreja", "Kesugihan", "Kroya", "Majenang", "Maos", "Nusawungu", "Sampang", "Sidareja"]
-                        },
-                        tooltip: {
-                          x: {
-                            format: 'dd/MM/yy HH:mm'
-                          },
+                            <div id="reportsChart"></div>
+                        </div>
+
+                        <script>
+                        function copyLink() {
+                            const dummyInput = document.createElement("input");
+                            dummyInput.value = window.location.href;
+                            document.body.appendChild(dummyInput);
+                            dummyInput.select();
+                            document.execCommand("copy");
+                            document.body.removeChild(dummyInput);
+                            alert("Link halaman berhasil disalin!");
                         }
-                      }).render();
-                    });
-                  </script>
-                  <!-- End Line Chart -->
 
+                        document.addEventListener("DOMContentLoaded", () => {
+                            fetch("<?= base_url('dashboard/chart-data') ?>")
+                                .then(response => response.json())
+                                .then(result => {
+                                    new ApexCharts(document.querySelector("#reportsChart"), {
+                                        series: result.series,
+                                        labels: result.series.map(s => s.name),
+                                        chart: {
+                                            height: 350,
+                                            type: 'bar',
+                                            toolbar: {
+                                                show: true,
+                                                tools: {
+                                                    download: true
+                                                }
+                                            }
+                                        },
+                                        plotOptions: {
+                                          bar: {
+                                            horizontal: false,
+                                            columnWidth: '40%', // 💡 Ubah di sini, bisa 20% - 100%
+                                            endingShape: 'rounded'
+                                          }
+                                        },
+                                        xaxis: {
+                                             categories: result.categories,
+                                              title: { text: 'Kecamatan' }
+                                        },
+                                        yaxis: {
+                                          min: 0,
+                                          title: { text: 'Jumlah Kasus' }
+                                        },
+                                        stroke: { curve: 'smooth', width: 2 },
+                                        markers: { size: 4 },
+                                        tooltip: {
+                                            shared: true,
+                                            intersect: false
+                                        },
+                                        legend: {
+                                        show: true,
+                                        position: 'top',
+                                        horizontalAlign: 'center',
+                                        fontSize: '14px',
+                                        labels: {
+                                          colors: '#333',
+                                          useSeriesColors: false
+                                        },
+                                        markers: {
+                                          width: 12,
+                                          height: 12
+                                        }
+                                      }
+                                    }).render();
+                                })
+                                .catch(error => console.error("Gagal memuat data chart:", error));
+                        });
+                        </script>
+                    </div>
                 </div>
+            </div>
 
-              </div>
-            </div><!-- End Reports -->
-
-            <!-- Recent Sales -->
+            
             <div class="col-12">
-              <div class="card recent-sales overflow-auto">
+                <div class="card recent-sales overflow-auto">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Tabel Kerawanan</h5>
 
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
-
-                    <li><a class="dropdown-item" href="#">Tanggal</a></li>
-                    <li><a class="dropdown-item" href="#">Bulan</a></li>
-                    <li><a class="dropdown-item" href="#">Tahun</a></li>
-                  </ul>
-                </div>
-
-                <div class="card-body">
-                  <h5 class="card-title">Data <span>| Per Tahun</span></h5>
-
-                  <table class="table table-borderless datatable">
-                    <thead>
-                      <tr>
-                        <th scope="col">Nama</th>
-                        <th scope="col">Asal</th>
-                        <th scope="col">Kasus</th>
-                        <th scope="col">Umur</th>
-                       
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"><a href="#">sukimin</a></th>
-                        <td>asalnya ini</td>
-                        <td><a href="#" class="text-primary">narkoba</a></td>
-                        <td>100</td>
                         
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#">paijo</a></th>
-                        <td>kotawaru</td>
-                        <td><a href="#" class="text-primary">ganja</a></td>
-                        <td>9</td>
-                        <!-- <td><span class="badge bg-warning">Pending</span></td> -->
-                      </tr>                    
-                      <tr>
-                        <!-- <th scope="row"><a href="#">#2644</a></th>
-                        <td>Angus Grady</td>
-                        <td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td> -->
-                        <!-- <td>$67</td> -->
-                        <!-- <td><span class="badge bg-danger">Rejected</span></td> -->
-                      </tr>                   
-                    </tbody>
-                  </table>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <form method="get" action="<?= base_url('dashboard_aoc') ?>" class="mb-3">
+                                    <div class="row g-2 align-items-center">
+                                        <div class="col-auto">
+                                        <select name="tahun" class="form-select" onchange="this.form.submit()">
+                                            <option value="">-- Semua Tahun --</option>
+                                            <?php foreach ($tahunList as $t): ?>
+                                            <option value="<?= esc($t['tahun']) ?>" <?= ($tahunDipilih == $t['tahun']) ? 'selected' : '' ?>>
+                                                <?= esc($t['tahun']) ?>
+                                            </option>
+                                            <?php endforeach; ?>
+                                        </select>
+                                        </div>
+                                    </div>
+                                    </form>
+                                <a href="<?= base_url('kerawanan/tambah') ?>" class="btn btn-primary btn-sm">+ Tambah Data Kerawanan</a>
+                            </div>
 
+                            <div>
+                                <input type="text" id="searchInput" class="form-control form-control-sm" placeholder="🔍 Cari..." style="width: 200px;">
+                            </div>
+                        </div>
+
+                        <table id="kerawananTable" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Tahun</th>
+                                    <th>Nama Desa</th>
+                                    <th>Bandar</th>
+                                    <th>Pengedar</th>
+                                    <th>Pengguna</th>
+                                    <th>Klien</th>
+                                    <th>Kos/THM</th>
+                                    <th>Nilai</th>
+                                    <th>Kategori</th>
+                                    <th>Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php if (!empty($kerawanan)): ?>
+                                    <?php $no = 1; ?>
+                                    <?php foreach ($kerawanan as $row): ?>
+                                        <tr>
+                                            <td><?= $no++ ?></td>
+                                            <td><?= esc($row['tahun']) ?></td>
+                                            <td><?= esc($row['desa']) ?></td>
+                                            <td><?= esc($row['bandar']) ?></td>
+                                            <td><?= esc($row['pengedar']) ?></td>
+                                            <td><?= esc($row['pengguna']) ?></td>
+                                            <td><?= esc($row['klien']) ?></td>
+                                            <td><?= esc($row['kosthm']) ?></td>
+                                            <td><?= esc($row['nilaikerawanan']) ?></td>
+                                            <td><?= kategori_kerawanan($row['nilaikerawanan']) ?></td>
+                                            <td>
+                                                <a href="<?= base_url('kerawanan/edit/'.$row['id']) ?>" class="btn btn-warning btn-sm">Edit</a>
+                                                <a href="<?= base_url('kerawanan/hapus/'.$row['id']) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Hapus data ini?')">Hapus</a>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                <?php else: ?>
+                                    <tr>
+                                        <td colspan="10" class="text-center text-muted">Data tidak ditemukan. Silakan pilih tahun yang lain atau tambahkan data baru.</td>
+                                    </tr>
+                                <?php endif; ?>
+                            </tbody>
+                        </table>
+
+                    </div>
                 </div>
+            </div>
 
-              </div>
-            </div><!-- End Recent Sales -->           
-          </div>
-        </div><!-- End Left side columns -->
-
-        <!-- Right side columns -->
-        <div class="col-lg-4">                               
-       
-
-      </div>
+        </div>
     </section>
 </main>
+<script>
+function getShareableURL() {
+    const currentURL = new URL(window.location.href);
+    const tahun = document.querySelector('select[name="tahun"]').value;
 
-<?php
-echo view('footer'); // memanggil file view footer.php
-?>
+    if (tahun) {
+        currentURL.searchParams.set('tahun', tahun);
+    } else {
+        currentURL.searchParams.delete('tahun');
+    }
+
+    return currentURL.toString();
+}
+
+function shareToWhatsApp() {
+    const url = encodeURIComponent(getShareableURL());
+    const text = encodeURIComponent("Cek data kerawanan narkoba ini:");
+    window.open(`https://wa.me/?text=${text}%20${url}`, '_blank');
+}
+
+function shareToFacebook() {
+    const url = encodeURIComponent(getShareableURL());
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+}
+
+function shareToTwitter() {
+    const url = encodeURIComponent(getShareableURL());
+    const text = encodeURIComponent("Statistik kerawanan narkoba:");
+    window.open(`https://twitter.com/intent/tweet?url=${url}&text=${text}`, '_blank');
+}
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("searchInput");
+    const table = document.getElementById("kerawananTable");
+    const rows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+
+    searchInput.addEventListener("input", function () {
+        const filter = searchInput.value.toLowerCase();
+
+        for (let i = 0; i < rows.length; i++) {
+            const rowText = rows[i].textContent.toLowerCase();
+
+            if (rowText.includes(filter)) {
+                rows[i].style.display = "";
+            } else {
+                rows[i].style.display = "none";
+            }
+        }
+    });
+});
+</script>
+
+
+<?php echo view('footer'); ?>

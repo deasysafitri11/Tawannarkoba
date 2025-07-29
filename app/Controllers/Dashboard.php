@@ -7,10 +7,12 @@ use App\Models\KecamatanModel;
 
 use App\Models\KelurahanModel;
 use App\Models\UngkapKasusModel;
+use App\Models\RekapKerawananModel;
+
 
 class Dashboard extends BaseController
 {
-    public function index() //method index otomatis dipanggil oleh controller
+    public function index() 
     {
         $kabupaten = new KabupatenModel();
      
@@ -32,75 +34,72 @@ class Dashboard extends BaseController
 
     public function aoc()
     {
-        $kabupaten = new KabupatenModel();
-     
+         $kerawananModel = new \App\Models\KerawananModel();
 
-        // Ambil data kabupaten untuk ditampilkan
-        $data['kabupaten'] = $kabupaten->find(1);
-        
+        // Ambil semua tahun unik untuk dropdown filter
+        $tahunList = $kerawananModel->select('tahun')->distinct()->orderBy('tahun', 'DESC')->findAll();
 
-        // Jika data lokasi sekolah tidak relevan, hapus variabel terkait
-        $lokasi = '';
-        $label_lokasi = '';
+        // Ambil tahun yang dipilih (jika ada)
+        $tahunDipilih = $this->request->getGet('tahun');
 
-        // Data marker dihilangkan karena SekolahModel tidak digunakan
-        $data['marker'] = $lokasi;
-        
-        // Menampilkan view dashboard dengan data kabupaten
-        echo view('dashboard_aoc', $data);
+        // Filter data jika tahun dipilih
+        if ($tahunDipilih) {
+            $dataKerawanan = $kerawananModel->where('tahun', $tahunDipilih)->findAll();
+        } else {
+            $dataKerawanan = $kerawananModel->findAll(); // atau bisa dikosongkan []
+        }
+
+        return view('dashboard_aoc', [
+            'kerawanan' => $dataKerawanan,
+            'tahunList' => $tahunList,
+            'tahunDipilih' => $tahunDipilih
+        ]);
     }
 
     public function getData()
     {
-        $kelurahan = new KelurahanModel();
         $nama_kecamatan = $this->request->getGet('nama_kecamatan');
         $nama_kelurahan = $this->request->getGet('nama_kelurahan');
-        $data = $kelurahan->join('kecamatan','kelurahan.id_kecamatan = kecamatan.id_kecamatan','left')
-                        ->select('kelurahan.*')
-                        ->select('kecamatan.nama_kecamatan')
-                        ->select("(SELECT COUNT(b.id_kasus) FROM ungkap_kasus b WHERE b.id_kelurahan = kelurahan.id_kelurahan) as jml_kasus")
-                        ->select("(SELECT COUNT(b.id_klien) FROM clientrehabilitasi b WHERE b.id_kelurahan = kelurahan.id_kelurahan) as jml_klien")
-                        ->orderBy('jml_kasus','desc')
-                        ->where('kelurahan.nama_kelurahan',$nama_kelurahan)
-                        ->where('kecamatan.nama_kecamatan',$nama_kecamatan)
-                        ->findAll();
-       
+        $tahun = (int) $this->request->getGet('tahun');
+
+        $rekapModel = new RekapKerawananModel();
+
+        $data = $rekapModel
+            ->join('kelurahan', 'rekap_kerawanan_kelurahan.id_kelurahan = kelurahan.id_kelurahan')
+            ->join('kecamatan', 'kelurahan.id_kecamatan = kecamatan.id_kecamatan')
+            ->select('rekap_kerawanan_kelurahan.*')
+            ->select('kelurahan.nama_kelurahan')
+            ->select('kecamatan.nama_kecamatan')
+            ->where('rekap_kerawanan_kelurahan.tahun', $tahun)
+            ->where('kelurahan.nama_kelurahan', $nama_kelurahan)
+            ->where('kecamatan.nama_kecamatan', $nama_kecamatan)
+            ->get()
+            ->getResultArray();
+
         return $this->response->setJSON($data);
     }
 
     public function getDataKerawanan()
     {
-        $kelurahan = new KelurahanModel();
-        $nama_kecamatan = $this->request->getGet('nama_kecamatan');
-        $nama_kelurahan = $this->request->getGet('nama_kelurahan');
-        $data = $kelurahan->join('kecamatan','kelurahan.id_kecamatan = kecamatan.id_kecamatan','left')
-                          ->select('kelurahan.*')
-                          ->select('kecamatan.nama_kecamatan')
-                          ->select("(SELECT COUNT(b.id_kasus) FROM ungkap_kasus b WHERE b.id_kelurahan = kelurahan.id_kelurahan) as jml_kasus")
-                          ->orderBy('jml_kasus','desc')
-                          ->findAll();
-
-        if (!empty($data)) {
-            foreach ($data as $key => $item ) {
-                $hasil = '<tr><td width="45%">id Kecamatan</td><td>:</td><td>' . $item->id_kelurahan . '</td></tr>' .
-                '<tr><td>Nama Desa/Kel.</td><td>:</td><td>' . $item->nama_kelurahan . '</td></tr>' .
-                '<tr><td>Nama Kecamatan</td><td>:</td><td>' . $item->nama_kecamatan. '</td></tr>' .
-                '<tr><td>Status Kerawanan</td><td>:</td><td></td></tr>' .
-                '<tr><td>Jumlah Ungkap Kasus</td><td>:</td><td>' . '0' . '</td></tr>'.
-                '<tr><td>Jumlah Sosialiasi Kasus</td><td>:</td><td>' . '0' . '</td></tr>'.
-                '<tr><td>Jumlah Penggiat P4GN Kasus</td><td>:</td><td>' . '0' . '</td></tr>'. 
-                '<tr><td>Jumlah Agen Pemulihan</td><td>:</td><td>' . '0' . '</td></tr>';
-              }
-            
-        } else {
-            $hasil = '<tr><td class="text-center" colspan="3">DATA TIDAK ADA !</td></tr>';
+        $tahun = (int) $this->request->getGet('tahun');
+        if (!$tahun) {
+            return $this->response->setJSON(['error' => 'Tahun tidak valid']);
         }
 
-        //$respon = ['hasil' => $hasil];
-        $respon = $data;
+        $rekapModel = new RekapKerawananModel();
 
-        return $this->response->setJSON($respon);
-        
+        $data = $rekapModel
+            ->join('kelurahan', 'rekap_kerawanan_kelurahan.id_kelurahan = kelurahan.id_kelurahan')
+            ->join('kecamatan', 'kelurahan.id_kecamatan = kecamatan.id_kecamatan')
+            ->select('rekap_kerawanan_kelurahan.*')
+            ->select('kelurahan.nama_kelurahan')
+            ->select('kecamatan.nama_kecamatan')
+            ->where('rekap_kerawanan_kelurahan.tahun', $tahun)
+            ->orderBy('jml_kasus', 'desc')
+            ->get()
+            ->getResultArray();
+
+        return $this->response->setJSON($data);
     }
 
     public function getDataKecamatan()
@@ -110,4 +109,29 @@ class Dashboard extends BaseController
                 ->where('id_kabupaten',1)->findAll();
         return $this->response->setJSON($data);
     }
+
+    public function ujiKNN($tahun = null)
+{
+    helper('knn');
+
+    $tahun = $tahun ?? date('Y');
+
+    $model = new RekapKerawananModel();
+
+    // Ambil data training (yang sudah punya kelas)
+    $dataLatih = $model->where('tingkat_kerawanan !=', null)->findAll();
+
+    // Ambil data uji (yang tahun-nya sesuai & belum punya klasifikasi)
+    $dataUji = $model->where('tahun', $tahun)->findAll();
+
+    foreach ($dataUji as $item) {
+        $prediksi = knnKlasifikasi($item, $dataLatih, 3); // k = 3
+
+        // Update hasil klasifikasi ke database
+        $model->update($item['id'], ['tingkat_kerawanan' => $prediksi]);
+    }
+
+    return redirect()->back()->with('success', 'Klasifikasi KNN berhasil diterapkan dan disimpan!');
+}
+
 }

@@ -8,9 +8,10 @@ use App\Models\KelurahanModel;
 class Tempatkos extends BaseController
 {
     public function index()
-    {
-        $this->tampil(); // Memanggil method tampil
-    }
+{
+    return $this->tampil();
+}
+
 
     public function tampil()
     {

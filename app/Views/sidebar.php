@@ -5,7 +5,7 @@
 <ul class="sidebar-nav" id="sidebar-nav">
 
   <li class="nav-item">
-    <a class="nav-link " href="<?php echo site_url(); ?>">
+    <a class="nav-link " href="<?php echo site_url('dashboard'); ?>">
       <i class="bi bi-grid"></i>
       <span>Tawan Narkoba</span>
     </a>
@@ -17,6 +17,11 @@
       <span>Dashboard</span>
     </a>
   </li><!-- End Dashboard Nav -->
+  <li class="nav-item">
+    <a class="nav-link" href="<?php echo site_url('bobot'); ?>">
+      <i class="bi bi-circle"></i><span>Bobot</span>
+    </a>
+  </li>
 
   <li class="nav-item">
     <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
@@ -51,6 +56,11 @@
       <i class="bi bi-journal-text"></i><span>Data</span><i class="bi bi-chevron-down ms-auto"></i>
     </a>
     <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="<?php echo site_url('rekapkerawanan'); ?>">
+          <i class="bi bi-circle"></i><span>Rekap Kerawanan</span>
+        </a>
+      </li>
       <li>
         <a href="<?php echo site_url('ungkapkasus'); ?>">
           <i class="bi bi-circle"></i><span>Ungkap Kasus</span>
